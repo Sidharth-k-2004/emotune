@@ -1,0 +1,25 @@
+.search-input::placeholder {
+    color: white; /* Placeholder color */
+    opacity: 0.7; /* Placeholder opacity */
+}
+/* Styles for song cards */
+.song-card {
+    flex: 0 1 calc(25% - 20px); /* Each card will take up 25% of the container width */
+    margin: 10px;
+    background-color: #333;
+    color: white;
+    border-radius: 10px;
+    text-align: center;
+  }
+  
+  @media (max-width: 768px) {
+    .song-card {
+      flex: 0 1 calc(50% - 20px); /* Adjust width for smaller screens */
+    }
+  }
+  
+  @media (max-width: 480px) {
+    .song-card {
+      flex: 0 1 calc(100% - 20px); /* Full width on very small screens */
+    }
+}

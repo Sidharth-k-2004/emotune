@@ -1,0 +1,37 @@
+.login-container {
+  position: fixed; /* Make it float */
+  top: 50%; /* Center vertically */
+  left: 50%; /* Center horizontally */
+  transform: translate(-50%, -50%); /* Adjust for center alignment */
+  background-color: transparent; /* Semi-transparent background */
+  border-radius: 10px; /* Rounded corners */
+  padding: 20px; /* Padding for spacing */
+  box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3); /* Shadow for depth */
+  width: 300px; /* Width of the container */
+  text-align: center; /* Center text */
+  opacity: 0; /* Initially hidden */
+  transition: opacity 1s ease-in-out; /* Smooth transition effect */
+  z-index: 1000; /* Ensure it's on top of other content */
+}
+
+input {
+  margin: 10px 0; /* Spacing between inputs */
+  padding: 10px; /* Padding inside inputs */
+  width: 100%; /* Full width */
+  border: 1px solid #ccc; /* Border styling */
+  border-radius: 5px; /* Rounded corners for inputs */
+}
+
+button {
+  padding: 10px; /* Padding inside button */
+  background-color: #00ff3c; /* Button background color */
+  color: white; /* Button text color */
+  border: none; /* No border */
+  border-radius: 5px; /* Rounded corners for button */
+  cursor: pointer; /* Pointer on hover */
+  width: 100%; /* Full width */
+}
+
+button:hover {
+  background-color: #1ed760; /* Darker button color on hover */
+}
